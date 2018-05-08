@@ -1,0 +1,160 @@
+/* --- global styles --- */
+
+/* --- resets --- */
+
+/* selector or type selector */
+/*
+selector {
+  property: value;
+  property: value;
+}
+*/
+
+/* general */
+
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0% auto;
+}
+
+main {
+  width: 70%;
+  max-width: 100%;
+  margin: 0% auto;
+}
+
+article {
+  width: 100%;
+  margin: 0% auto;
+}
+
+
+* {
+  font-family: sans-serif;
+}
+
+.text-style {
+  width: 100%;
+  text-align: justify;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+header {
+  padding-top: .125em;
+  padding-bottom: .125em;
+}
+
+/* navigation styles */
+
+
+.navigation {
+  background-color: rgba(102, 51, 255, 0.7);
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 0%;
+}
+
+.nav-items {
+  display: inline;
+  text-align: center;
+  word-spacing: .125em;
+}
+
+.nav-items li {
+  display: inline;
+  margin: 0 .5em;
+}
+
+.nav-items ul {
+  list-style: none;
+  padding-top: .5em;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav-items ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-items ul li a:hover{
+  color: #f66;
+}
+
+
+/* header styles */
+
+.header {
+  background: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0% auto;
+  position: relative;
+}
+
+.header .header-text {
+  background: rgba(102, 51, 255, 0.4);
+  color: #fff;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  padding: .125em;
+  max-height: 5em;
+  max-width: 25em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+
+/* intro styles */
+
+
+.introduction {
+  padding: .125em;
+  background: #fff;
+}
+
+.main-col {
+  float: left;
+  width: 100%;
+  margin: 0% auto;
+}
+
+
+.quote {
+  padding-top: 4em;
+  padding-bottom: 3em;
+  background: #fff;
+  width: 100%;
+}
+
+.quote .quote-text {
+  font: impact, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+blockquote {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
